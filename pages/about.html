@@ -6,6 +6,9 @@
     <title>About Page</title>
     <link rel="stylesheet" href="./../css/about.css">
     <style>
+        .main{
+            background-color:aliceblue;
+        }
         .title-style{
             font-family: serif;
             font-size: 30px;
@@ -19,6 +22,7 @@
             box-shadow: 10px;
             font-family:sans-serif;
             font-size: 40px;
+            margin-left: 50PX;
         }
         .sample-img{
             
@@ -41,8 +45,15 @@
             background-color: rgb(234, 210, 175);
             text-align: center;
             color: rgb(79, 6, 6);
-          
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(9, 9, 9, 0.849);
+    transition: transform 0.2s ease;
+            
         }
+        .mission:hover {
+    transform: scale(1.05);
+}
+
        .vision{
             border-style: groove;
             border: none;
@@ -53,31 +64,87 @@
             background-color: rgb(234, 210, 175);
             text-align: center;
             color: rgb(79, 6, 6);
+            border-radius: 10px;
+             box-shadow: 0 2px 8px rgba(9, 9, 9, 0.849);
+    transition: transform 0.2s ease;
           
         }
-        .footer{
+         .vision:hover {
+    transform: scale(1.05);
+}
+        
+        .logo{
             text-align: center;
-        }
-        .team{
-            text-align: center;
-            color: rgb(15, 15, 106);
-            font-family:'Roboto',sans-serif;
-        }
-        .team-align{
-            align-items: first baseline;
-
-        }
-        .team-member{
-            border-radius: 50%;
+            border-radius: 50px;
             
+        }
+      
+
+
+        .team-wrapper {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.team-wrapper h2 {
+    font-size: 28px;
+    color: #003399;
+    margin-bottom: 30px;
+}
+
+.team-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+
+.team-card {
+    width: 200px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    transition: transform 0.2s ease;
+    cursor: pointer;
+}
+
+.team-card:hover {
+    transform: scale(1.05);
+}
+
+.team-card img {
+    width: 120px;
+    height: 120px;
+    
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.team-card h3 {
+    margin: 8px 0 5px;
+    font-size: 18px;
+    color: #222;
+}
+
+.team-card p {
+    color: #555;
+    font-size: 14px;
+}
+.footer{
+            text-align: center;
+            background-color: rgb(72, 67, 67);
+            color: whitesmoke;
+            font-size: 20px;
         }
     </style>
 </head>
 
-<body>
+<body class="main">
    
       <header>
-    <div>
+    <div >
     <nav class="navbar">
         <img src="./../images/golden-logo.jpeg" height="50px"/>
         <b class="title-style">Golden Grove Interiors</b>
@@ -96,7 +163,7 @@
       </div>
        </div> 
         <div class="sample-inte">
-               <img src="./../images/sample-interior.jpg" height="700px" />
+               <img src="./../images/sample-interior.jpg" height="900px" width="1200px" />
 <b>Transforming spaces into beautiful homes</b>
         </div>
         <div class="mission-vision-container">
@@ -110,20 +177,80 @@
         To become a trusted interior design team known for quality and creativity.
         </div>
         </div>
-        <div class="team">
-            <h1>OUR TEAM</h1>
+        <br/>
+        <div class="logo"><img src="./../images/golden-logo.jpeg" height="300px" width="500px" class="logo"/></div>
+
+            <div class="team-wrapper">
+    <h2>OUR TEAM</h2>
+
+    <div class="team-container">
+
+        <div class="team-card">
+            <img src="./../images/vidya-photo.jpeg" alt="Member 1">
+            <h3>Member 1</h3>
+            <h4>Vidya Sonawane</h4>
+            <p>Interior Designer</p>
         </div>
-            <div class="team-align" >
-                Member 1<img src="./../images/vidya-photo.jpeg" height="100px" class="team-member"/>
-            </div>
+
+        <div class="team-card">
+            <img src="./../images/harshada-photo.jfif" alt="Member 2">
+            <h3>Member 2</h3>
+            <h4>Harshada Kakad</h4>
+            <p>3D Visualizer</p>
+        </div>
+
+        <div class="team-card">
+            <img src="./../images/sarala-photo.jfif" alt="Member 3">
+            <h3>Member 3</h3>
+            <h4>Sarla Varpe</h4>
+            <p>Architect</p>
+        </div>
+
+        <div class="team-card">
+            <img src="./../images/ashwini-photo.jfif" alt="Member 4">
+            <h3>Member 4</h3>
+            <h4>Ashwini Sable</h4>
+            <p>Project Manager</p>
+        </div>
+
+        <div class="team-card">
+            <img src="./../images/swapnali-photo.jfif" alt="Member 5">
+            <h3>Member 5</h3>
+            <h4>Swapnali Sangale</h4>
+            <p>Site Supervisor</p>
+        </div>
+
+        <div class="team-card">
+            <img src="./../images/tanishka-photo.jfif" alt="Member 6">
+            <h3>Member 6</h3>
+            <h4>Tanishka Kalamkar</h4>
+            <p>Creative Head</p>
+        </div>
+
+        <div class="team-card">
+            <img src="./../images/namrata-photo.jfif" alt="Member 7">
+            <h3>Member 7</h3>
+            <h4>Namrata Rupwate</h4>
+            <p>Lighting Specialist</p>
+        </div>
+
+        <div class="team-card">
+            <img src="./../images/anjali-photo.jfif" alt="Member 8">
+            <h3>Member 8</h3>
+            <h4>Anjali Mhase</h4>
+            <p>Furniture Designer</p>
+        </div>
+
+    </div>
+</div>
         
         <footer class="footer">
     
       <p>&copy; <time datetime="2025">2025</time> Golden Grove interiors | All Rights Reserved</p>
       <p>Follow us:
-        <a href="mailto:interiors283@gmail.com">Email</a> |
-        <a href="https://www.instagram.com/interiordesignmag/">Instagram</a> |
-        <a href="https://www.facebook.com/InteriorDesignsFans/">Facebook</a>
+        <a href="mailto:interiors283@gmail.com" target="_blank">Email</a> |
+        <a href="https://www.instagram.com/interiordesignmag/" target="_blank">Instagram</a> |
+        <a href="https://www.facebook.com/InteriorDesignsFans/" target="_blank">Facebook</a>
       </p>
     
   </footer>
