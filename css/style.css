@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fffcf1;
+}
+
+.navbar-main-container {
+    background-color: rgb(137, 53, 53);
+    color: rgb(244, 241, 241);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.project-name {
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.main-logo {
+    border-radius: 30px;
+
+}
+
+.nav-links-container {
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+    color: #f9f9f9;
+}
+
+.nav-text-container{
+    color: #f9f5f5;
+}
+.auth-links-containar {
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+}
+
+.main-container {
+    height: 600px;
+    width: 1527px;
+}
+
+.main-img {
+    height: 600px;
+    width: 1512px;
+    overflow: hidden;
+    position: relative;
+    overflow: hidden;
+    object-fit:cover;
+    filter:brightness(100%);
+    background: url('../images/interior.png');
+}
+
+
+.main-img img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
