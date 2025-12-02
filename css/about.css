@@ -1,0 +1,24 @@
+.navbar {
+    background-color:#660000 ;
+    color: white;
+    display:flex;
+    align-items: center;
+    gap: 100px;
+    position: fixed;
+}
+.nav-text-container{
+    cursor: pointer;
+    color:rgb(169, 141, 89);
+    font-size: 20px;
+}
+.nav-text-container:hover{
+    color: aliceblue;
+    
+}
+.sub-navbar{
+     background-color:#660000 ;
+    color: white;
+    display:flex;
+    align-items: center;
+    gap: 10px;
+}
