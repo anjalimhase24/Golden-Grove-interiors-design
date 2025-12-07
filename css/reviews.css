@@ -159,6 +159,32 @@
     border-radius:14px;
 }
 
+@media(max-width: 767px) {
+    .happy-card video {
+        width: 100%;
+        height: auto;
+        border-radius: 12px;
+    }
+
+    .happy-slider {
+        padding: 10px;
+        gap: 15px;
+    }
+
+    .happy-card {
+        min-width: 260px;
+        padding: 10px;
+    }
+
+    .caption{
+        font-size:14px;
+    }
+
+    .location{
+        font-size:12px;
+    }
+}
+
 .caption{
   margin-top:10px; 
   font-size:18px;
