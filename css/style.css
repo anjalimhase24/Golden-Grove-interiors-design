@@ -1,14 +1,15 @@
-
- *{
-  margin:0;
-  padding:0;
-  box-sizing:border-box;
-  font-family: "Poppins", sans-serif;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
 }
-        body{
-            font-family: Arial, sans-serif; 
-            background-color: rgb(255, 252, 241); 
-        }
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(255, 252, 241);
+}
+
 .navbar-main-container {
     background-color: rgb(137, 53, 53);
     color: rgb(244, 241, 241);
@@ -37,7 +38,7 @@
     font-size: 24px;
     font-weight: bold;
     cursor: pointer;
-    font-family:"Poppins" ,sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
 .main-logo {
@@ -54,8 +55,8 @@
 
 .nav-text-container {
     color: #f9f5f5;
-     text-decoration: none; 
-     
+    text-decoration: none;
+
 }
 
 .auth-links-containar {
@@ -68,9 +69,46 @@
 .main-container {
     height: 600px;
     width: 1527px;
-    top:0;
-    z-index: 1000;
 }
+
+
+@media(max-width :767px) {
+
+    .project-name {
+        font-size: 30px;
+
+    }
+
+
+    .main-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 40px;
+    }
+
+    .navbar-main-container {
+        flex-direction: column;
+        text-align: center;
+        padding: 12px;
+
+    }
+
+    .auth-links-containar {
+        flex-direction: column;
+        text-align: center;
+        padding: 12px;
+    }
+
+    .nav-text-container {
+        display: block;
+        margin-top: 12px;
+        font-size: 14px;
+        margin: 10px 0;
+    }
+}
+
+
 
 .main-img {
     height: auto;
@@ -154,54 +192,6 @@
     }
 }
 
-
-
-
-@media(max-width :767px) {
-
-    .project-name {
-        font-size: 30px;
-
-    }
-
-    .main-img-text h1 {
-        font-size: 24px;
-        width: 90%;
-        line-height: 30px;
-        text-align: center;
-        left: 50%;
-        top: 50px;
-        transform: translate(-50%, -50%);
-
-    }
-
-    .main-container {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 15px 40px;
-    }
-
-    .navbar-main-container {
-        flex-direction: column;
-        text-align: center;
-        padding: 12px;
-
-    }
-
-    .auth-links-containar {
-        flex-direction: column;
-        text-align: center;
-        padding: 12px;
-    }
-
-    .nav-text-container {
-        display: block;
-        margin-top: 12px;
-        font-size: 14px;
-        margin: 10px 0;
-    }
-}
 
 .services-section {
     width: 100%;

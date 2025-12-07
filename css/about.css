@@ -55,6 +55,46 @@ body {
     cursor: pointer;
 }
 
+.main-container {
+    height: 600px;
+    width: 1527px;
+}
+
+
+@media(max-width :767px) {
+
+    .project-name {
+        font-size: 30px;
+
+    }
+
+
+    .main-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 40px;
+    }
+
+    .navbar-main-container {
+        flex-direction: column;
+        text-align: center;
+        padding: 12px;
+
+    }
+
+    .auth-links-containar {
+        flex-direction: column;
+        text-align: center;
+        padding: 12px;
+    }
+
+    .nav-text-container {
+        display: block;
+        margin-top: 12px;
+        font-size: 14px;
+        margin: 10px 0;
+    } }
 * {
     margin: 0;
     padding: 0;
@@ -334,7 +374,7 @@ body {
 }
 
 
-/* Footer Styling */
+
 .footer {
     background-color: rgb(137, 53, 53);
     color: #fff;
