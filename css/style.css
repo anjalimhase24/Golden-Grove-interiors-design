@@ -1,13 +1,15 @@
-*{
-  margin:0;
-  padding:0;
-  box-sizing:border-box;
-  font-family: "Poppins", sans-serif;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
 }
-        body{
-            font-family: Arial, sans-serif; 
-            background-color: rgb(255, 252, 241); 
-        }
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(255, 252, 241);
+}
+
 .navbar-main-container {
     background-color: rgb(137, 53, 53);
     color: rgb(244, 241, 241);
@@ -36,7 +38,7 @@
     font-size: 24px;
     font-weight: bold;
     cursor: pointer;
-    font-family:"Poppins" ,sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
 .main-logo {
@@ -53,8 +55,8 @@
 
 .nav-text-container {
     color: #f9f5f5;
-     text-decoration: none; 
-     
+    text-decoration: none;
+
 }
 
 .auth-links-containar {
@@ -108,7 +110,7 @@
 
 
 .main-img {
-        height: auto;
+    height: auto;
     width: 100%;
     overflow: hidden;
     position: relative;
@@ -527,7 +529,7 @@
     gap: 40px;
     margin: 20px 0;
     font-size: 20px;
-
+    font-size: 25px;
 }
 
 .social-icons a {
@@ -539,7 +541,7 @@
 }
 
 .social-icons img {
-    width: 25px;
+    width: 30px;
     height: 30px;
     margin-right: 8px;
 }
@@ -554,7 +556,7 @@
 }
 
 .col h4 {
-    font-size: 25px;
+    font-size: 30px;
     text-transform: uppercase;
     margin-bottom: 12px;
 }
@@ -564,7 +566,7 @@
     margin: 6px 0;
     color: #eee;
     text-decoration: none;
-    font-size: 12px;
+    font-size: 14px;
     transition: .3s;
 }
 
