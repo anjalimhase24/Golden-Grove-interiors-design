@@ -21,8 +21,8 @@
 }
 
 .main-container {
-    height: 600px;
-    width: 1527px;
+    height: auto;
+    width: 100%;
 }
 
 .logo-container {
@@ -60,12 +60,6 @@
     display: flex;
     gap: 20px;
     cursor: pointer;
-}
-
-
-.main-container {
-    height: 600px;
-    width: 1527px;
 }
 
 
@@ -129,6 +123,7 @@
    max-width: 760px;
     margin: 40px auto;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.07);
+    margin-top: 110px;
 }
 
 
@@ -277,6 +272,28 @@ input {
 .btn:hover {
     opacity: 0.8;
 }
+@media (max-width: 768px) {
+    .container {
+        margin-top: 130px !important;
+        flex-direction: column;
+        padding: 15px;
+    }
+
+    .right-side {
+        padding: 20px;
+        box-shadow: none;
+    }
+
+    .left-side {
+        width: 100%;
+        text-align: center;
+    }
+
+    .interior-img {
+        max-width: 100%;
+    }
+}
+
 
 
 .footer {
