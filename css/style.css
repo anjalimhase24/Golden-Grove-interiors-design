@@ -406,7 +406,7 @@ body {
 }
 
 /* Mobile View (1 Column) */
-@media (max-width: 600px) {
+@media (max-width: 768px) {
     .features-container {
         flex-direction: column;
         gap: 20px;
@@ -454,12 +454,6 @@ body {
     padding: 40px;
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
-}
 
 
 .gallery-container {
