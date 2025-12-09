@@ -299,20 +299,23 @@
 
 /* Footer Styling */
 
+
 .footer {
     background-color: rgb(137, 53, 53);
     color: #fff;
-    padding: 40px 8%;
+    padding: 40px 20px;
     font-family: 'Poppins', sans-serif;
     position: relative;
     bottom: 0;
     width: 100%;
+    align-items: center;
 
 }
 
 .footer-top {
     text-align: center;
     margin-bottom: 30px;
+    
 }
 
 .footer-logo {
@@ -327,6 +330,7 @@
     gap: 40px;
     margin: 20px 0;
     font-size: 20px;
+    flex-wrap: wrap;
 
 }
 
@@ -357,6 +361,8 @@
     font-size: 25px;
     text-transform: uppercase;
     margin-bottom: 12px;
+    display: flex;
+    
 }
 
 .col a {
@@ -382,5 +388,6 @@
 @media (max-width: 768px) {
     .footer-links {
         text-align: center;
+
     }
 }
