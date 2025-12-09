@@ -1,4 +1,4 @@
-✨ Golden Grove Interiors – Modern Interior Design Website
+**✨ Golden Grove Interiors – Modern Interior Design Website**
 
 Project Year: 2025
 
