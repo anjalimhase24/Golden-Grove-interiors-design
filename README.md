@@ -1,7 +1,7 @@
 ✨ Golden Grove Interiors – Modern Interior Design Website
 
                         
-<img width="561" height="349" alt="image" src="https://github.com/user-attachments/assets/43bc1369-07e1-4aa6-9a93-bfb5fa7a5b8a" />
+<img width="561" height="349" alt="image" align="center" src="https://github.com/user-attachments/assets/43bc1369-07e1-4aa6-9a93-bfb5fa7a5b8a" />
 
 
 A fully responsive and beautifully designed home interior design website built using HTML & CSS.
@@ -57,13 +57,17 @@ images
 ________________________________________
 
 🏠 Home Page
- 
+ <img width="940" height="529" alt="image" src="https://github.com/user-attachments/assets/a6f47d03-8dfc-4914-bdc6-d1e979ca1c2e" />
+
 
 🪑 Services Page
  
+<img width="940" height="554" alt="image" src="https://github.com/user-attachments/assets/9c03d785-0894-4862-8a92-1d28e41e6c7e" />
 
 
 🏢 Product Page
+<img width="940" height="529" alt="image" src="https://github.com/user-attachments/assets/9225efb9-be66-4847-ad07-4bcd192de0ab" />
+
  ________________________________________
 
 👨‍💻 Collaborators
