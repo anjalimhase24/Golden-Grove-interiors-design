@@ -1,63 +1,91 @@
-**✨ Golden Grove Interiors – Modern Interior Design Website**
- 
+✨ Golden Grove Interiors – Modern Interior Design Website
+
+                        
+<img width="561" height="349" alt="image" src="https://github.com/user-attachments/assets/43bc1369-07e1-4aa6-9a93-bfb5fa7a5b8a" />
+
+
 A fully responsive and beautifully designed home interior design website built using HTML & CSS.
+________________________________________
+📌 Project Overview
+Golden Grove Interiors is a modern and visually appealing online interior design platform designed using pure HTML & CSS.
+This project represents elegant layouts, interior services pages, portfolio displays, enquiry forms, and responsive sections suitable for any professional interior designing company.
+________________________________________
+🌟 Features
+________________________________________
+•	Elegant and modern interior design website
+•	Fully responsive layout
+•	Navigation bar with logo
+•	Service pages & project portfolio showcase
+•	 Contact & Feedback forms
+•	 Smooth UI and attractive color palette
+•	 Clean and structured code
+•	 High-quality interior design imagery
+________________________________________
+🧰 Technologies Used
+•	HTML
+•	CSS
+•	Responsive Web Design
+________________________________________
+📂 Folder Structure
+Golden-Grove-Interiors/
+•	index.html
+•	README.md
+•	style.css
+•	
+css
+•	about.css
+•	 services.css
+•	projects.css
+•	contact.css
+•	feedback.css
+•	login.css
+•	signup.css
+
+ pages
+•	about.html
+•	services.html
+•	 projects.html
+•	contact.html
+•	Reviews
+•	feedback.html
+•	login.htm
+•	signup.html
+
+images
 
 
-Project Year: 2025
+________________________________________
 
-Developer : Harshada kakad and team
+🏠 Home Page
+ 
 
-Type : Mini project (html & css)
-
-Project Description :
-Golden Grove Interior Design is a simple multi-page HTML website designed to showcase online electronic shopping features including product listing, user account, shopping cart, and payment checkout system.The project is built using pure HTML and contains multiple interconnected pages.
-
-Pages Include:
-
-1.index.html -	Home page with welcome banner, introduction section, and interior design images
-
-2.service.html -	Information about interior design services offered
-
-3.project.html -	Portfolio / project gallery showing completed projects
-
-4.about.html -	Details about the interior design company, mission & team
-
-5.login.html -	Login page for existing users
-
-6.signup.html-	New user registration page
-
-7.feedback.html / reviews.html -	Customer feedback & testimonials
-
-8.contact.html - Contact form with address & enquiry form
-
-9.stlyes.css - This file contains all the styling and layout design for the Home Interior Design website
-
-Technologies Used:
--HTML,CSS
+🪑 Services Page
+ 
 
 
-Features :
+🏢 Product Page
+ ________________________________________
 
-1.Pure HTML & CSS based clean UI
-
-2.Header & footer included on all pages
-
-3.Navigation links between all pages
-
-4.Attractive project gallery section
-
-5.Feedback / reviews page for user opinions
-
-6.Contact form for message submission
-
-7.Simple and responsive design structure
+👨‍💻 Collaborators
+•	Harshada Kakad
+•	Vidy Sonawane
+•	Sarla Varpe
+•	Tanishka Kalamkar
+•	Anjali Mhase
+•	Swapnali Sangale
+•	Ashwini Sable
+•	Namrata Rupwate
 
 
 
-How to Use:
+________________________________________
+💙 Support
+If you like this project, consider giving it a ⭐ on GitHub!
+________________________________________
+📬 Contact
+For inquiries and collaboration:
+📧 support@goldengroveinteriors.com 
+________________________________________
+THANK YOU! 🙏
+Golden Grove Interiors – Transforming Spaces, Designing Dreams
 
-1. Open the project folder.
-
-2. Double-click on index.html to open the home page in the browser.
-
-3. Use the navigation bar to browse other pages.
