@@ -1,4 +1,7 @@
 **✨ Golden Grove Interiors – Modern Interior Design Website**
+ 
+A fully responsive and beautifully designed home interior design website built using HTML & CSS.
+
 
 Project Year: 2025
 
