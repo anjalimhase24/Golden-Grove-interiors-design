@@ -18,7 +18,6 @@ body {
     align-items: center;
     position: fixed;
     top: 0;
-
     width: 100%;
     z-index: 1000;
 }
@@ -26,6 +25,14 @@ body {
 .main-container {
     height: 600px;
     width: 1527px;
+    display: flex;
+    position: sticky;
+    z-index: 999;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    top :0;
+    padding: 10px 20px;
 }
 
 .logo-container {
@@ -51,6 +58,10 @@ body {
     gap: 20px;
     cursor: pointer;
     color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
 }
 
 .nav-text-container {
@@ -72,7 +83,7 @@ body {
 }
 
 
-@media(max-width :767px) {
+@media(max-width :768px) {
 
     .project-name {
         font-size: 30px;
@@ -85,12 +96,16 @@ body {
         justify-content: space-between;
         align-items: center;
         padding: 15px 40px;
+        flex-direction: column;
+        gap: 10px;
+
     }
 
     .navbar-main-container {
         flex-direction: column;
         text-align: center;
         padding: 12px;
+        gap: 12px;
 
     }
 
@@ -108,7 +123,11 @@ body {
     }
 }
 
-
+@media(min-width:769px)and (max-width:1024){
+      .navbar-main-container{
+        gap: 18px;
+      }
+}
 .main-img {
     height: auto;
     width: 100%;
@@ -501,20 +520,24 @@ body {
     font-weight: 500;
 }
 
+/* Footer Styling */
+
 .footer {
     background-color: rgb(137, 53, 53);
     color: #fff;
-    padding: 40px 8%;
+    padding: 40px 20px;
     font-family: 'Poppins', sans-serif;
     position: relative;
     bottom: 0;
     width: 100%;
+    align-items: center;
 
 }
 
 .footer-top {
     text-align: center;
     margin-bottom: 30px;
+    
 }
 
 .footer-logo {
@@ -529,7 +552,8 @@ body {
     gap: 40px;
     margin: 20px 0;
     font-size: 20px;
-    font-size: 25px;
+    flex-wrap: wrap;
+
 }
 
 .social-icons a {
@@ -541,7 +565,7 @@ body {
 }
 
 .social-icons img {
-    width: 30px;
+    width: 25px;
     height: 30px;
     margin-right: 8px;
 }
@@ -556,9 +580,11 @@ body {
 }
 
 .col h4 {
-    font-size: 30px;
+    font-size: 25px;
     text-transform: uppercase;
     margin-bottom: 12px;
+    display: flex;
+    
 }
 
 .col a {
@@ -566,7 +592,7 @@ body {
     margin: 6px 0;
     color: #eee;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 12px;
     transition: .3s;
 }
 
@@ -584,5 +610,6 @@ body {
 @media (max-width: 768px) {
     .footer-links {
         text-align: center;
+
     }
 }

@@ -192,20 +192,23 @@
 
 /* Footer Styling */
 
+
 .footer {
     background-color: rgb(137, 53, 53);
     color: #fff;
-    padding: 40px 8%;
+    padding: 40px 20px;
     font-family: 'Poppins', sans-serif;
     position: relative;
     bottom: 0;
     width: 100%;
+    align-items: center;
 
 }
 
 .footer-top {
     text-align: center;
     margin-bottom: 30px;
+    
 }
 
 .footer-logo {
@@ -219,7 +222,8 @@
     align-items: center;
     gap: 40px;
     margin: 20px 0;
-    font-size: 25px;
+    font-size: 20px;
+    flex-wrap: wrap;
 
 }
 
@@ -232,7 +236,7 @@
 }
 
 .social-icons img {
-    width: 30px;
+    width: 25px;
     height: 30px;
     margin-right: 8px;
 }
@@ -247,9 +251,11 @@
 }
 
 .col h4 {
-    font-size: 30px;
+    font-size: 25px;
     text-transform: uppercase;
     margin-bottom: 12px;
+    display: flex;
+    
 }
 
 .col a {
@@ -257,7 +263,7 @@
     margin: 6px 0;
     color: #eee;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 12px;
     transition: .3s;
 }
 
@@ -275,5 +281,6 @@
 @media (max-width: 768px) {
     .footer-links {
         text-align: center;
+
     }
 }
