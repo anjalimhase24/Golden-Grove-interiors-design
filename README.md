@@ -1,10 +1,9 @@
 # ✨ Golden Grove Interiors – Modern Interior Design Website
 
-                        
-<img width="561" height="349" alt="image" align="center" src="https://github.com/user-attachments/assets/43bc1369-07e1-4aa6-9a93-bfb5fa7a5b8a" />
-
-
-
+       
+ <p align="center">
+  <img src="https://github.com/user-attachments/assets/43bc1369-07e1-4aa6-9a93-bfb5fa7a5b8a" width="300">
+</p>
 A fully responsive and beautifully designed home interior design website built using HTML & CSS.
 
 ## 📌 Project Overview
@@ -13,7 +12,8 @@ This project represents elegant layouts, interior services pages, portfolio disp
  
 ## 🚀 Live Demo
 👉 View Live on Vercel
-(Insert link here after deployment)
+
+([Insert link here after deployment](https://golden-grove-interiors-design.vercel.app/))
 
 
 ## 🌟 Features
