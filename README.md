@@ -1,60 +1,129 @@
-**project name:Golden grove interior design**
+# ✨ Golden Grove Interiors – Modern Interior Design Website
+   
+ <p align="center">
+  <img src="https://github.com/user-attachments/assets/43bc1369-07e1-4aa6-9a93-bfb5fa7a5b8a" width="300">
+</p>
+A fully responsive and beautifully designed home interior design website built using HTML & CSS.
 
-Project Year: 2025
+## 📌 Project Overview
+Golden Grove Interiors is a modern and visually appealing online interior design platform designed using pure HTML & CSS.
+This project represents elegant layouts, interior services pages, portfolio displays, enquiry forms, and responsive sections suitable for any professional interior designing company.
+ 
+## 🚀 Live Demo
+👉 View Live on Vercel
 
-Developer : Harshada kakad and team
-
-Type : Mini project (html & css)
-
-Project Description :
-Golden Grove Interior Design is a simple multi-page HTML website designed to showcase online electronic shopping features including product listing, user account, shopping cart, and payment checkout system.The project is built using pure HTML and contains multiple interconnected pages.
-
-Pages Include:
-
-1.index.html -	Home page with welcome banner, introduction section, and interior design images
-
-2.service.html -	Information about interior design services offered
-
-3.project.html -	Portfolio / project gallery showing completed projects
-
-4.about.html -	Details about the interior design company, mission & team
-
-5.login.html -	Login page for existing users
-
-6.signup.html-	New user registration page
-
-7.feedback.html / reviews.html -	Customer feedback & testimonials
-
-8.contact.html - Contact form with address & enquiry form
-
-9.stlyes.css - This file contains all the styling and layout design for the Home Interior Design website
-
-Technologies Used:
--HTML,CSS
+([Insert link here after deployment](https://golden-grove-interiors-design.vercel.app/))
 
 
-Features :
+## 🌟 Features
 
-1.Pure HTML & CSS based clean UI
+•	Elegant and modern interior design website
 
-2.Header & footer included on all pages
+•	Fully responsive layout
 
-3.Navigation links between all pages
+•	Navigation bar with logo
 
-4.Attractive project gallery section
+•	Service pages & project portfolio showcase
 
-5.Feedback / reviews page for user opinions
+•	 Contact & Feedback forms
 
-6.Contact form for message submission
+•	 Smooth UI and attractive color palette
 
-7.Simple and responsive design structure
+•	 Clean and structured code
+
+•	 High-quality interior design imagery
+
+## 🧰 Technologies Used
+•	HTML
+
+•	CSS
+
+•	Responsive Web Design
+
+## 📂 Folder Structure
+Golden-Grove-Interiors/
+•	index.html
+
+•	README.md
+
+•	style.css
+	
+## css
+•	about.css
+
+•	services.css
+
+•	product.css
+
+•	contact.css
+
+•	feedback.css
+
+•	login.css
+
+•	signup.css
+
+• reviews.css
+
+## pages
+•	about.html
+
+•	services.html
+
+•	product.html
+
+•	contact.html
+
+•	Reviews
+
+•	feedback.html
+
+•	login.htm
+
+•	signup.html
+
+
+## images
 
 
 
-How to Use:
 
-1. Open the project folder.
+## 🏠 Home Page
+ <img width="940" height="529" alt="image" src="https://github.com/user-attachments/assets/a6f47d03-8dfc-4914-bdc6-d1e979ca1c2e" />
 
-2. Double-click on index.html to open the home page in the browser.
+## 🪑 Services Page
+ 
+<img width="940" height="554" alt="image" src="https://github.com/user-attachments/assets/9c03d785-0894-4862-8a92-1d28e41e6c7e" />
 
-3. Use the navigation bar to browse other pages.
+
+## 🏢 Product Page
+<img width="940" height="529" alt="image" src="https://github.com/user-attachments/assets/9225efb9-be66-4847-ad07-4bcd192de0ab" />
+
+## 👨‍💻 Collaborators
+•	Harshada Kakad
+
+•	Vidy Sonawane
+
+•	Sarla Varpe
+
+•	Tanishka Kalamkar
+
+•	Anjali Mhase
+
+•	Swapnali Sangale
+
+•	Ashwini Sable
+
+•	Namrata Rupwate
+
+## 💙 Support
+If you like this project, consider giving it a ⭐ on GitHub!
+
+## 📬 Contact
+For inquiries and collaboration:
+📧 support@goldengroveinteriors.com 
+
+## THANK YOU! 🙏
+Golden Grove Interiors – Transforming Spaces, Designing Dreams
+
+
